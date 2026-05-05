@@ -22,6 +22,7 @@ const Navbar = () => {
             <div className='flex gap-10 justify-center text-white'>
                 <Link href={'/'}>Home</Link>
                 <Link href={'/models'}>Models</Link>
+                <Link href={'/server-action'}>Server Action</Link>
                 <Link href={'/signup'}>Sign up</Link>
                 <Link href={'/signin'}>Sign in</Link>
                 <div className=' text-red-400 font-bold text-xl'>{user?.name}</div>
